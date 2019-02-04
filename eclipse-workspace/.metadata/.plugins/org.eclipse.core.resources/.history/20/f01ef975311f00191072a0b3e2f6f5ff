@@ -1,0 +1,37 @@
+package Practice_day59;
+
+import java.util.LinkedList;
+import java.util.List;
+
+
+public class ArrayList {
+	public static void main(String[] args) {
+		
+		List <String> col = new ArrayList<>();
+		
+		col.add("A");
+		col.add("B");
+		col.add("C");
+		col.add("D");
+		col.add("E");
+		col.remove("B");
+		
+		System.out.println(col.get(1));
+		
+		
+		
+		
+
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+	}
+
+}

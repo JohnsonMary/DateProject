@@ -1,0 +1,27 @@
+package Practice_day59;
+
+import java.util.*;
+
+public class CollectionsExample {
+	public static void main(String[] args) {
+		
+		List <String> lst = new ArrayList<>();
+		lst.add("Apple");
+		lst.add("Pear");
+		lst.add("Lemon");
+		lst.add("Orange");
+		lst.add("Grapes");
+		lst.add("Avocado");
+		lst.add("Tomatoes");
+		
+		System.out.println(lst.subList(2, 5));
+		
+
+		
+		
+		
+		
+		
+	}
+
+}

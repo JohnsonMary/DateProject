@@ -1,0 +1,46 @@
+package day61_Collection;
+
+import java.util.*;
+
+public class Practice {
+	public static void main(String[] args) {
+		
+		/*
+		 * TASK 1 : 
+Given array of Strings names—> 
+    Use iterator to iterate over.
+    count unique elements 
+    find out how many items start with  k->l
+    find frequency of each items  : hint create a frequency map 
+		 */
+		
+		List <String> lst = new ArrayList<>();
+		
+		lst.add("Apple");
+		lst.add("Pear");
+		lst.add("Lemon");
+		lst.add("Orange");
+		lst.add("Orange");
+		
+		Iterator <String > iterator = lst.iterator();
+		
+		while(iterator.hasNext()) {
+			
+			System.out.println(iterator.next());
+			
+		}
+		Set <String> lstSet = new HashSet<>(lst);
+		System.out.println(lstSet);
+		
+		
+		
+		
+
+		
+		
+		
+		
+		
+	}
+
+}

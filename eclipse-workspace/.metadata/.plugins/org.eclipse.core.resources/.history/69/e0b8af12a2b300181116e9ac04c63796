@@ -1,0 +1,50 @@
+package day8_conditionals2;
+import java.util.Scanner;
+
+public class ChooseLanguage {
+	public static void main(String[] args) {
+		Scanner scan=new Scanner(System.in);
+		System.out.println("Which language?");
+		String language=scan.nextLine();
+		
+		System.out.println("Please select:English->1 \n"+
+		                   "Spanish->2\n"+
+				           "Turkish->3\n"+
+		                   "Russian->4\n"+
+				           "Uyghur->5\n"+
+		                   "Uzbek->6\n"+
+				           "Kyrgyz->7\n"+
+		                   "Tajik->8");
+				
+	
+		String greeting=" ";
+		if(language.equals("English")) {
+			greeting="Hello,How are you?";
+					
+		}else if(language.equals("Spanish")) {
+			greeting="Como estas?";
+			
+		}else if (language.equals("Turkish")) {
+			greeting="Nasilsin?";
+			
+		}else if (language.equals("Russian")) {
+			greeting="Kak nena?";
+			
+		}else if(language.equals("Uyghur")) {
+			greeting="Qalaysiz?";
+			
+		}else if(language.equals("Uzbek")) {
+			greeting="Qalaysiz";
+		}else if(language.equals("Kyrgyz")) {
+			greeting="Kahnancaih?";
+			
+		}else if(language.equals("Tajik")) {
+			greeting="Uymo?";
+			
+		}else {
+			System.out.println("I don't speak that language");
+		}
+		
+	}
+
+}

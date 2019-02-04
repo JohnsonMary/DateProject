@@ -1,0 +1,24 @@
+package day60_Collection;
+
+import java.util.Map;
+import java.util.Set;
+
+public class Map2 {
+	
+	public static void main(String[] args) {
+		
+		Map<Long,String> product=new HashMap<>();
+		product.put(123l, "book");
+		product.put(23l, "table");
+		product.put(300l, "pen");
+		product.put(12l, "bed");
+		product.put(50l, "pan");
+		System.out.println(product);
+		
+		Set <Long> allKeys = product.keySet();
+		System.out.println(allkeys);
+		
+		
+	}
+
+}

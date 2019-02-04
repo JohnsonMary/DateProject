@@ -1,0 +1,97 @@
+package Practice_day59;
+
+import java.util.*;
+
+
+
+public class ArrayListExample {
+	public static void main(String[] args) {
+		
+		List <Integer> col = new ArrayList<>();
+		
+		col.add(34);
+		col.add(4);
+		col.add(55);
+		col.add(87);
+		col.add(43);
+
+		Iterator <Integer> iterator = col.iterator();
+		
+		System.out.println(iterator.next());
+		System.out.println(iterator.next());
+		System.out.println(iterator.next());
+		
+		while(iterator.hasNext()) {
+			
+			if(iterator.next()>60) {
+				iterator.remove();
+				
+			}
+			
+		} System.out.println(col);
+		
+		
+		
+		List <String> fruits = new LinkedList<>();
+		
+		fruits.add("Apple");
+		fruits.add("Banana");
+		fruits.add("Pear");
+		fruits.add("Orange");
+		
+		System.out.println(fruits);
+		
+		Iterator <String> iterator2 = fruits.iterator();
+		
+		
+		while(iterator2.hasNext()) {
+			
+			String target = iterator2.next();
+			if(target.contains("a") && target.contains("e") ) {
+				
+				iterator2.remove();	
+			}		
+		}
+		    System.out.println(fruits);
+
+		    Set <Integer> numSet = new HashSet<>();
+		    numSet.add(64);
+		    numSet.add(2);
+		    numSet.add(2);
+		    numSet.add(2);
+		    numSet.add(34);
+		    
+		    System.out.println(numSet);
+		    
+		    Iterator <Integer> iterator3 = numSet.iterator();
+		    
+		    while (iterator3.hasNext()) {
+		    	
+		    	System.out.println(iterator3.next());
+		    	
+		    }System.out.println(numSet);
+		    
+		    
+		    Collections.sort(col);
+		    System.out.println(col);
+
+		    
+		
+		
+		
+		
+		
+
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+	}
+
+}

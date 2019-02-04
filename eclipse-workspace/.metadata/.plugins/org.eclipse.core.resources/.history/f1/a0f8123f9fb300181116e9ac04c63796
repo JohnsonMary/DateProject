@@ -1,0 +1,27 @@
+package day8_conditionals2;
+
+public class Grades {
+	public static void main(String[] args) {
+		
+		char grade='C';
+		if(grade=='A') {
+			System.out.println("Excellent");
+			System.out.println("Keep it up!");
+			
+		}else if(grade=='B') {
+			System.out.println("Good");
+			System.out.println("Good job!");
+			
+		}else if(grade=='C') {
+			System.out.println("Acceptable");
+			System.out.println("Need to work");
+			
+		}else if(grade=='D'){
+			System.out.println("Fail");
+			System.out.println("Next time!");
+		}else {
+			System.out.println("Not a valid grade");
+		}
+	}
+
+}

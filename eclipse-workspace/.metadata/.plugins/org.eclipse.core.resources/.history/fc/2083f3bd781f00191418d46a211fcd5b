@@ -1,0 +1,47 @@
+package day60_Collection;
+
+import java.util.*;
+
+public class ArrayListExample {
+	
+	public static void main(String[] args) {
+	
+	
+	   List <String> lst = new ArrayList<>();
+	   
+	   lst.add("Ball");
+	   lst.add("Eraser");
+	   lst.add("Pencil");
+	   lst.add("Eraser");
+	   lst.add("Notebook");
+	   
+	   Set <String> set = new HashSet<>();
+	   
+/*	   for (int i = 0; i < lst.size(); i++) {
+		   
+		   set.add(lst.get(i));
+	
+	    }
+	   
+	   System.out.println(set.size());
+	 */  
+
+	   set.addAll(lst);
+	   System.out.println(set.size());
+	   
+	   List <String> lst2 = new ArrayList<>(lst);
+	   System.out.println(lst2);
+	   
+	  // Set <String> set1 = new HashSet<>(lst);
+	  // System.out.println( set1 );
+	   
+	   SortedSet <String> sSet = new TreeSet<>(lst);
+	   System.out.println(sSet);
+	   
+	   
+	   
+	}
+	
+	   
+	  
+}

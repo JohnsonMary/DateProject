@@ -1,0 +1,85 @@
+package day61_Collection;
+
+import java.util.*;
+
+public class Practice {
+	public static void main(String[] args) {
+		
+		/*
+		 * TASK 1 : 
+Given array of Strings names—> 
+    Use iterator to iterate over.
+    count unique elements 
+    find out how many items start with  k->l
+    find frequency of each items  : hint create a frequency map 
+		 */
+		
+		String[] arr = {"Darben","Hitzke","Lamburn","Secretan","Cawse","Pinkney","Martynikhin","Oram","Pinkney","Glaze","Martynikhin","John","Adam","Zack"};
+        
+		List <String> nameLst = new ArrayList<>();
+		
+		for(String eachName: arr) {
+			
+			nameLst.add(eachName);
+			
+		} System.out.println(nameLst);
+		
+        Iterator <String > iterator = nameLst.iterator();
+		
+		while(iterator.hasNext()) {
+			
+			System.out.println(iterator.next());
+			
+		}
+		
+		Set <String> setNames = new HashSet<>(nameLst);
+		
+		System.out.println("Count of unique elements: "+setNames.size());
+
+		
+		
+		
+		
+		
+		/*
+		List <String> lst = new ArrayList<>();
+		
+		int count=0; 
+		lst.add("Apple");
+		lst.add("Pear");
+		lst.add("Lemon");
+		lst.add("Orange");
+		lst.add("Orange");
+		
+		Iterator <String > iterator = lst.iterator();
+		
+		while(iterator.hasNext()) {
+			
+			System.out.println(iterator.next());
+			
+		}
+		Set <String> lstSet = new HashSet<>(lst);
+		
+		System.out.println("Count of unique elements: "+lstSet.size());
+		
+        while(iterator.hasNext()) {
+			
+        	String next = iterator.next();
+        	
+        	if(next.startsWith("K") || next.startsWith("L")) {
+        		count++;
+       	
+        	}	
+		}  System.out.println(count);
+		 
+		
+		for(String fruit:lst) {
+			
+			System.out.println(Collections.frequency(lstSet, fruit));
+			
+		}
+			
+		*/
+	}
+
+}

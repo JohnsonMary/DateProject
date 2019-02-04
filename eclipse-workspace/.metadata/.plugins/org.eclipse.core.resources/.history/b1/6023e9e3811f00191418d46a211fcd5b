@@ -1,0 +1,27 @@
+package day60_Collection;
+
+import java.util.*;
+
+public class MapPractice {
+	public static void main(String[] args) {
+		
+		
+		Map <Long, String> map = new HashMap<>();
+		
+		map.put(373L, "Apples");
+		map.put(4646L, "Pears");
+		map.put(363L, "Cherry");
+		map.put(26L, "Lemon");
+		map.put(363L, "GreenApple");
+		
+		System.out.println(map.get(373L));
+		System.out.println(map.get(363L));
+		System.out.println(map.get(26L));
+		map.replace(363L, "Strawberry");
+		System.out.println(map.get(363L));
+
+		
+		
+	}
+
+}

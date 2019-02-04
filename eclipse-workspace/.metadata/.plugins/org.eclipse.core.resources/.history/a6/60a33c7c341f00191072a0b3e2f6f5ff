@@ -1,0 +1,59 @@
+package Practice_day59;
+
+import java.util.ArrayList;
+import java.util.Iterator;
+import java.util.LinkedList;
+import java.util.List;
+
+
+public class ArrayListExample {
+	public static void main(String[] args) {
+		
+		List <Integer> col = new ArrayList<>();
+		
+		col.add(34);
+		col.add(4);
+		col.add(55);
+		col.add(87);
+		col.add(43);
+
+		Iterator <Integer> iterator = col.iterator();
+		
+		System.out.println(iterator.next());
+		System.out.println(iterator.next());
+		System.out.println(iterator.next());
+		
+		while(iterator.hasNext()) {
+			
+			if(iterator.next()>60) {
+				iterator.remove();
+				
+			}
+			
+		} System.out.println(col);
+		
+		for (int i = 0; i < col.size(); i++) {
+			
+			col.set(i,30 );
+			
+			
+		}System.out.println(col);
+		
+		
+		
+		
+		
+
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+	}
+
+}

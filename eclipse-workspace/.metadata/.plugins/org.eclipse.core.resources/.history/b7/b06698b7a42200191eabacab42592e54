@@ -1,0 +1,28 @@
+package day61_Collection;
+
+import java.util.*;
+
+public class MapOfMultipleValue {
+	
+	public static void main(String[] args) {
+		
+		// Store students group with members in the map
+		
+		Map <String, List<String> > groupMap = new HashMap<>();
+		
+		List <String> ty1Lst = Arrays.asList("Heydar","Leron","Kasim");
+		List <String> ty2Lst = Arrays.asList("Esqer","Oguz");
+		List <String> ty3Lst = Arrays.asList("Dzhamol","Mesut","Sefkat","Tarik");
+		
+		groupMap.put("Tyson One", ty1Lst);
+		groupMap.put("Tyson Two", ty2Lst);
+		groupMap.put("Tyson Three", ty3Lst);
+		
+		System.out.println( groupMap.get("Tyson Three").get(1));
+
+		
+		
+		
+	}
+
+}

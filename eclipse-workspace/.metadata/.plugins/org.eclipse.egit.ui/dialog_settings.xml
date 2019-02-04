@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<list key="EGit.KnownHosts">
+		<item value="git.eclipse.org"/>
+		<item value="github.com"/>
+		<item value="bitbucket.org"/>
+	</list>
+	<section name="GitCommitMessageComponent">
+		<list key="/Users/maryjohnson/git/repository2/.git">
+			<item value="false"/>
+			<item value="MaryJohnson &lt;johnsonsmary81@gmail.com&gt;"/>
+			<item value="xce"/>
+			<item value="MaryJohnson &lt;johnsonsmary81@gmail.com&gt;"/>
+			<item value="0000000000000000000000000000000000000000"/>
+			<item value="0"/>
+		</list>
+		<list key="/Users/maryjohnson/git/repository/.git">
+			<item value="false"/>
+			<item value="MaryJohnson &lt;johnsonsmary81@gmail.com&gt;"/>
+			<item value="&quot;Cities Project&quot;"/>
+			<item value="MaryJohnson &lt;johnsonsmary81@gmail.com&gt;"/>
+			<item value="0000000000000000000000000000000000000000"/>
+			<item value="0"/>
+		</list>
+	</section>
+	<section name="GitCommitSearchPage">
+		<item value="1" key="HISTORY_SIZE"/>
+		<section name="HISTORY0">
+			<section name="searchSection">
+				<item value="true" key="matchMessage"/>
+				<item value="false" key="allBranches"/>
+				<item value="true" key="matchCommit"/>
+				<item value="" key="textPattern"/>
+				<item value="true" key="matchCommitter"/>
+				<item value="2" key="repositoryCount"/>
+				<item value="/Users/maryjohnson/git/repository/.git" key="repository0"/>
+				<item value="/Users/maryjohnson/git/repository2/.git" key="repository1"/>
+				<item value="false" key="regexSearch"/>
+				<item value="true" key="matchAuthor"/>
+				<item value="true" key="ignoreCase"/>
+				<item value="true" key="matchParents"/>
+				<item value="true" key="matchTree"/>
+			</section>
+		</section>
+	</section>
+	<section name="org.eclipse.egit.ui.internal.staging.StagingView">
+		<item value="200,200" key="STAGING_SASH_FORM_WEIGHT"/>
+		<item value="false" key="sortItemState"/>
+		<item value="200,200" key="HORIZONTAL_SASH_FORM_WEIGHT"/>
+	</section>
+	<section name="CommitSelectionDialogSection">
+		<item value="true" key="ShowStatusLine"/>
+		<item value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&#x0A;&lt;History/&gt;" key="History"/>
+		<section name="DialogBoundsSettings">
+			<item value="600" key="DIALOG_WIDTH"/>
+			<item value="1|.AppleSystemUIFont|11.0|0|COCOA|1|.AppleSystemUIFont" key="DIALOG_FONT_NAME"/>
+			<item value="500" key="DIALOG_HEIGHT"/>
+			<item value="540" key="DIALOG_X_ORIGIN"/>
+			<item value="148" key="DIALOG_Y_ORIGIN"/>
+		</section>
+	</section>
+</section>

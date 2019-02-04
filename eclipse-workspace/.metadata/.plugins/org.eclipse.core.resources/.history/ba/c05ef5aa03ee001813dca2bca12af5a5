@@ -1,0 +1,34 @@
+package OCA;
+
+
+	public class ThanksGiving {
+
+		int number ; 
+
+		public static void main(String[] args) {
+			
+			int j = 10 ; 
+			// reference variable 
+			ThanksGiving t = new ThanksGiving();
+			
+			
+			
+			
+			System.out.println(t.number);
+			System.out.println(t.number);
+			
+			
+			System.out.println(   new ThanksGiving().number   );
+			System.out.println(   new ThanksGiving().number   );
+			
+			
+			
+			
+			
+			
+
+		}
+
+	}
+
+}

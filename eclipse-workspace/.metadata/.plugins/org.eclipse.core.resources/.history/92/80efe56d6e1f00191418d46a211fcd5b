@@ -1,0 +1,30 @@
+package day60_Collection;
+
+import java.util.*;
+
+public class ArrayListExample {
+	
+	public static void main(String[] args) {
+		
+		Set <String> list1 = new HashSet<>();
+		
+		list1.add("Red");
+		list1.add("Brown");
+		list1.add("Burgundy");
+		list1.add("Burgundy");
+		list1.add("White");
+		
+		
+	   System.out.println(Collections.frequency(list1,"Burgundy"));
+	   
+
+		
+		
+		
+		
+		
+		
+		
+	}
+
+}
